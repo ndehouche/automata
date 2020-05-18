@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    padding: 20px;
+    background-color: #fffbf7;
+    color: #222c2e;
+}
+
+#gridContainer {
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: #faf6f2;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-spacing: 0;
+    
+  
+}
+
+td {
+    border: 0px solid #F1F5DA;
+    border-radius: 0px;
+    width: 10px;
+    height: 10px;
+}
+
+span {
+    color: #222;
+}
+
+#start,
+#clear,
+#random {
+    padding: .75em;
+    border-radius: 0px;
+    border: none;    
+   
+}
+
+.dead {
+    background-color: transparent;
+}
+
+.live {
+    background-color: #698791;
+    border-radius: 0px;
+}
+
+
+
